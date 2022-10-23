@@ -1,0 +1,45 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+.main{
+    background-image: url(images/Abhi\ All\ In\ One\ Platform1.png);
+    height: 1020px;
+    width: 1920px;
+}
+.header ul li{
+    width: 200px;
+    float: left;
+    list-style: none;
+    text-align: center;
+    font-size: 26px;
+    margin-top: 10px;
+    margin-right: 74px;
+    background-color: white ;
+}
+
+.header ul li a{
+    text-decoration: none;
+   color: black;
+}
+.header ul li a:hover{
+background-color: grey;
+border-bottom: 3px solid red;
+}
+.header ul li>ul li{
+display: none;
+}
+.header ul li:hover>ul li{
+    display: block;
+}
+.header ul li>ul li{
+    margin-top: 10px;
+}
+.one{
+    text-align: center;
+    font-size: 30px;
+    border: 6px solid gray;
+    font-style: italic;
+    font-style: bold;    
+}
